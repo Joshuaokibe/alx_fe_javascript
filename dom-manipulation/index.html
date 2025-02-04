@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quote-app">
+        <h1>Dynamic Quote Generator</h1>
+        <button id="new-quote-btn">Show New Quote</button>
+        <p id="quote-display">Click the button to get a quote!</p>
+        <hr>
+
+        <h2>Add a New Quote</h2>
+        <input type="text" id="quote-input" placeholder="Enter a new quote">
+        <input type="text" id="category-input" placeholder="Enter quote category">
+        <button id="add-quote-btn">Add Quote</button>
+
+        <h2>Filter by Category</h2>
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+        </select>
+
+        <hr>
+        
+        <h2>Import & Export Quotes</h2>
+        <button id="export-quotes-btn">Export Quotes</button>
+        <input type="file" id="import-quotes-input">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
